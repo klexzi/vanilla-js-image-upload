@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+.uploader {
+  border: black dotted;
+  box-sizing: content-box;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+}
+.uploader {
+  margin: auto;
+}
+.uploader p {
+  margin: auto;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.uploaded-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.other-image-thumbnails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-thumb {
+  width: 140px;
+  height: 120px;
+  border: 1px solid purple;
+  object-fit: cover;
+  flex: 1;
+}
